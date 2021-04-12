@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dbINSManagement">
+  <DataContextMoniker Name="/dbINSManagementDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3aca280d-b2e4-4d2c-9c2a-a71ddab0e92c" absoluteBounds="6.625, 2.375, 2, 2.2764815266927085">
+      <DataClassMoniker Name="/dbINSManagementDataContext/tCustomerPolicy" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dcbcee36-b3cd-45e9-9b4b-7eed56c1120e" absoluteBounds="6.64, 2.835, 1.9700000000000002, 1.7164815266927085" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b688d00e-c559-4d78-b371-b9429b1b5001" absoluteBounds="4.125, 2, 2, 3.5700402832031246">
+      <DataClassMoniker Name="/dbINSManagementDataContext/tCustomerINS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6520fe28-3e31-497e-8a22-b7678629c944" absoluteBounds="4.14, 2.46, 1.9700000000000002, 3.010040283203125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b2a0a642-a245-4da8-8a57-cb0f9dcdd840" absoluteBounds="1.75, 2.25, 2, 2.4612756347656246">
+      <DataClassMoniker Name="/dbINSManagementDataContext/tAgent" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8caa0c98-6a15-4ae9-bf13-16bb4d588ee3" absoluteBounds="1.765, 2.71, 1.9700000000000002, 1.901275634765625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

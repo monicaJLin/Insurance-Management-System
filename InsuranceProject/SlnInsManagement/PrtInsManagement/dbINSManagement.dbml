@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="db.demo" Class="dbINSManagementDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=db.demo;Integrated Security=True" SettingsObjectName="PrtInsManagement.Properties.Settings" SettingsPropertyName="db_demoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tCustomerPolicy" Member="tCustomerPolicy">
+    <Type Name="tCustomerPolicy">
+      <Column Name="fCustomerPolicyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fCustomerID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fFirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fLastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fPolicyType" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fPeriod_StartDate" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="fPolicy_FiscalPeriod" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fAgentID" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tCustomerINS" Member="tCustomerINS">
+    <Type Name="tCustomerINS">
+      <Column Name="fCustomerID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fFirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fLastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fDOB" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="fAge" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Column Name="fGender" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fState" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fCity" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fAddress" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fZipcode" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fContactPhone" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fOccupation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fDegree" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fDriverLicense" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fAgentName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tAgent" Member="tAgent">
+    <Type Name="tAgent">
+      <Column Name="fAgentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fFirstName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fLastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fAge" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fGender" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fOccupation" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fContact" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="fAgentEmail" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="fPassword" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,15 @@
+D:\0107Project\SlnInsManagement\PrtInsManagement\bin\Debug\PrtInsManagement.exe.config
+D:\0107Project\SlnInsManagement\PrtInsManagement\bin\Debug\PrtInsManagement.exe
+D:\0107Project\SlnInsManagement\PrtInsManagement\bin\Debug\PrtInsManagement.pdb
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.csprojAssemblyReference.cache
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmAgent.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmCustomer.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmMain.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmCustomerPolicy.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.Properties.Resources.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.csproj.GenerateResource.cache
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.csproj.CoreCompileInputs.cache
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.exe
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.pdb
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmLogin.resources
+D:\0107Project\SlnInsManagement\PrtInsManagement\obj\Debug\PrtInsManagement.FrmBilling.resources
